@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {
   "name": "uno-zen",
   "description": "Minimalist and Elegant theme for Ghost",
@@ -46,52 +45,3 @@
   },
   "license": "MIT"
 }
-=======
-{
-  "name": "uno-zen",
-  "description": "Minimalist and Elegant theme for Ghost",
-  "homepage": "https://github.com/kikobeats/uno-zen",
-  "version": "2.5.7",
-  "author": {
-    "name": "Kiko Beats",
-    "url": "https://github.com/kikobeats"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kikobeats/uno-zen"
-  },
-  "bugs": {
-    "url": "https://github.com/Kikobeats/uno-zen/issues"
-  },
-  "keywords": [
-    "elegant",
-    "ghost",
-    "minimalism",
-    "theme",
-    "uno",
-    "zen"
-  ],
-  "devDependencies": {
-    "browser-sync": "*",
-    "coffee-script": "*",
-    "gulp": "*",
-    "gulp-add-src": "*",
-    "gulp-autoprefixer": "*",
-    "gulp-changed": "*",
-    "gulp-coffee": "*",
-    "gulp-concat": "*",
-    "gulp-cssmin": "*",
-    "gulp-header": "*",
-    "gulp-minify-css": "*",
-    "gulp-sass": "*",
-    "gulp-strip-css-comments": "*",
-    "gulp-uglify": "*",
-    "gulp-util": "*",
-    "underscore.string": "*"
-  },
-  "engines": {
-    "node": "~0.12.x"
-  },
-  "license": "MIT"
-}
->>>>>>> 4927e3710fb57e1f176383c701f884cc9f573b04

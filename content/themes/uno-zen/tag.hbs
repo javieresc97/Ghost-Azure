@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 {{!< default}}
 <h1>Tag: {{tag.name}}</h1>
 <ol class="posts">
@@ -16,22 +15,3 @@
 </ol>
 
 {{pagination}}
-=======
-{{!< default}}
-<h1>Tag: {{tag.name}}</h1>
-<ol class="posts">
-  {{#foreach posts}}
-  <li>
-    <a href="{{url}}" title="link to {{{title}}}"><h2>{{{title}}}</h2></a>
-    <p class="excerpt">{{excerpt}}&hellip;</p>
-    <div class="post meta">
-      <time datetime="{{date format="DD MMM YYYY"}}">{{date format="DD MMM YYYY"}}</time>
-      <span class="post tags">{{tags prefix="on " separator=" "}}</span>
-    </div>
-    <hr class="divider post" />
-  </li>
-  {{/foreach}}
-</ol>
-
-{{pagination}}
->>>>>>> 4927e3710fb57e1f176383c701f884cc9f573b04
