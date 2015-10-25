@@ -1,0 +1,33 @@
+<<<<<<< HEAD
+<nav class="navigation left">
+  <ul class="links">
+
+    <li class="nav-blog {{#if current}} nav-current{{/if}}">
+      <a href="{{@blog.url}}/#open" title="{{@blog.title}} blog">Blog</a>
+    </li>
+
+    {{#foreach navigation}}
+      <li class="nav-{{slug}} {{#if current}} nav-current{{/if}}">
+        <a href="{{this.url}}">{{label}}</a>
+      </li>
+    {{/foreach}}
+
+  </ul>
+</nav>
+=======
+<nav class="navigation left">
+  <ul class="links">
+
+    <li class="nav-blog {{#if current}} nav-current{{/if}}">
+      <a href="{{@blog.url}}/#open" title="{{@blog.title}} blog">Blog</a>
+    </li>
+
+    {{#foreach navigation}}
+      <li class="nav-{{slug}} {{#if current}} nav-current{{/if}}">
+        <a href="{{this.url}}">{{label}}</a>
+      </li>
+    {{/foreach}}
+
+  </ul>
+</nav>
+>>>>>>> 4927e3710fb57e1f176383c701f884cc9f573b04

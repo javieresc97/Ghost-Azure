@@ -1,0 +1,34 @@
+<<<<<<< HEAD
+# http://editorconfig.org
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[package.json]
+indent_style = space
+indent_size = 2
+
+[*.md]
+=======
+# http://editorconfig.org
+
+[*]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[package.json]
+indent_style = space
+indent_size = 2
+
+[*.md]
+>>>>>>> 4927e3710fb57e1f176383c701f884cc9f573b04
+trim_trailing_whitespace = false

@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+.DS_Store
+node_modules/
+.sass-cache/
+assets/vendor
+assets/scss/bourbon
+=======
+.DS_Store
+node_modules/
+.sass-cache/
+assets/vendor
+assets/scss/bourbon
+>>>>>>> 4927e3710fb57e1f176383c701f884cc9f573b04
